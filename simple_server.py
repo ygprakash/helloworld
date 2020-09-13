@@ -8,7 +8,7 @@ def hello_world():
     return 'hello world, chaitanya!!'
 
 @app.route('/3ri')
-def hello_world():
+def ri_tech():
     """Print 'Hello, world!' as the response body."""
     return 'technologies'
 
