@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     """Print 'Hello, world!' as the response body."""
-    return 'hello world, Bravilor Bonamat!!'
+    return 'hello world, Bravilor Bonamat!! first dayyyyyyyyyyy'
 
 @app.route('/tri')
 def ri_tech():
