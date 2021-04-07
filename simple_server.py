@@ -10,7 +10,7 @@ def hello_world():
 @app.route('/tri')
 def ri_tech():
     """Print 'Hello, world!' as the response body."""
-    return '2nd page of Bravilor Bonamat!!!!!'
+    return 'Bingoooooooooooo.  2nd page of Bravilor Bonamat!!!!!'
 
 # @app.route('/batch')
 # def batch():
