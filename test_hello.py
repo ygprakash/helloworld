@@ -5,7 +5,7 @@ def test_hello():
     url_pattern_response = app.test_client().get('/trim')
 
     assert response.status_code == 200
-    assert str(response.data) == 'hello world, Bravilor Bonamat!! '
+    assert str(response.data) == 'hello world, Bravilor Bonamat!! first dayyyyyyyyyyy '
     #
     assert url_pattern_response.status_code == 200
-    assert str(url_pattern_response.data) == '2nd page of Bravilor Bonamat!!!!!'
+    assert str(url_pattern_response.data) == 'Bingoooooooooooo. woowwwwwww 2nd page of Bravilor Bonamat!!!!! '
